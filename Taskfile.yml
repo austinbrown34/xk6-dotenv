@@ -43,7 +43,7 @@ tasks:
     generates:
       - k6
     cmds:
-      - xk6 build --with github.com/szkiba/xk6-dotenv=$(pwd)
+      - xk6 build --with github.com/austinbrown34/xk6-dotenv=$(pwd)
 
   test:
     deps: [build]
